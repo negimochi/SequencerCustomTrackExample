@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+CustomTrack/Saved/
+CustomTrack/Intermediate/
+CustomTrack/DerivedDataCache/
+CustomTrack/.vs/
+CustomTrack/Binaries/
+*.sln
