@@ -4,8 +4,6 @@
 #include "MovieSceneSection.h"
 #include "Curves/CurveInterface.h"
 
-//#include "Sections/MovieSceneEventSection.h"
-
 #include "MyActor.h"
 
 #if WITH_EDITOR
@@ -21,7 +19,6 @@ struct FActorEventPayload
 	GENERATED_BODY()
 
 	FActorEventPayload() {}
-//	FActorEventPayload(FName InEventName) : EventName(InEventName) {}
 
 	FActorEventPayload(const FActorEventPayload&) = default;
 	FActorEventPayload& operator=(const FActorEventPayload&) = default;

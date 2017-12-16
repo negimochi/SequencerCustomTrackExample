@@ -1,4 +1,3 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
 #include "MovieSceneActorEventTemplate.h"
 
@@ -13,8 +12,6 @@
 
 #include "MyActor.h"
 
-
-//DECLARE_CYCLE_STAT(TEXT("Event Track Token Execute"), MovieSceneEval_EventTrack_TokenExecute, STATGROUP_MovieSceneEval);
 
 struct FMovieSceneEventData
 {
@@ -32,9 +29,7 @@ struct FEventTrackExecutionToken
 
 	/** Execute this token, operating on all objects referenced by 'Operand' */
 	virtual void Execute(const FMovieSceneContext& Context, const FMovieSceneEvaluationOperand& Operand, FPersistentEvaluationData& PersistentData, IMovieScenePlayer& Player) override
-	{
-//		MOVIESCENE_DETAILED_SCOPE_CYCLE_COUNTER(MovieSceneEval_EventTrack_TokenExecute)
-		
+	{	
 		TArray<float> PerformanceCaptureEventPositions;
 
 		// Resolve event contexts to trigger the event on
