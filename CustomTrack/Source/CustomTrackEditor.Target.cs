@@ -9,6 +9,6 @@ public class CustomTrackEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "CustomTrack" } );
+		ExtraModuleNames.AddRange( new string[] { "CustomTrack", "CustomTrackEditor" } );
 	}
 }

@@ -8,6 +8,11 @@
 			"Name": "CustomTrack",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CustomTrackEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
 		}
 	]
 }
